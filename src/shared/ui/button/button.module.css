@@ -1,0 +1,23 @@
+.button {
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid hsl(0, 0%, 88%);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: hsl(0, 0%, 94%);
+  width: 100%;
+}
+button:hover {
+  border-color: hsl(209, 100%, 70%);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto hsl(209, 100%, 70%);
+}
+button:disabled {
+  cursor: default;
+  border-color: hsl(0, 0%, 88%);
+}

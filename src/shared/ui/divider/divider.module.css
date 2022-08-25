@@ -1,0 +1,18 @@
+.divider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.divider > span {
+  flex: 0 0 auto;
+  color: hsla(208, 37%, 20%, 0.5);
+}
+
+.divider .left,
+.divider .right {
+  flex: 1 1 100%;
+  height: 1px;
+  background-color: hsl(0, 0%, 88%);
+}

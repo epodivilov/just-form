@@ -1,0 +1,33 @@
+.text {
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+.text[data-color="primary"] {
+  color: hsl(208, 37%, 20%);
+}
+
+.text[data-color="secondary"] {
+  color: hsl(208, 37%, 30%);
+}
+
+.text[data-color="success"] {
+  color: hsl(134, 61%, 41%);
+}
+
+.text[data-color="error"] {
+  color: hsl(354, 70%, 54%);
+}
+
+.text[data-size="small"] {
+  font-size: 0.8em;
+}
+
+.text[data-size="medium"] {
+  font-size: 1em;
+}
+
+.text[data-size="large"] {
+  font-size: 1.2em;
+}

@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.status {
+  display: none;
+}
+
+.status[aria-live] {
+  display: initial;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}

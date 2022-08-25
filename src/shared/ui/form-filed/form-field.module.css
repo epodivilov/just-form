@@ -1,0 +1,13 @@
+.field {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.label {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
